@@ -66,3 +66,118 @@ html, body {
 @containerColor: #c0c0c0;
 @containerColor2: #ffffff;
 
+/* Global Features */
+
+html {
+	font-size: 62.5%;
+}
+
+body{
+	background-color: @containerColor2;
+	background-image: linear-gradient(to bottom, @accentColor, @primaryColor);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	font-size: 1.4rem;
+}
+
+h1 {
+	font-size: 6rem;
+}
+
+h2 {
+	font-size: 2.5rem;
+}
+
+h3 {
+	font-size: 2rem;
+}
+
+h4 {
+	font-size: 1rem;
+}
+
+.page-wrapper {
+	width: 880px;
+	margin: 0 auto;
+}
+
+.nav-bar {
+	background: @containerColor2;
+	width: 100%;
+	height: 100px;
+	display: flex;
+	justify-content: space-around;
+	padding: 40px 25%;
+
+	a {
+		text-decoration: none;
+		font-size: 1.8rem;
+		color: @accentColor;
+	}
+
+	a:hover {
+		color: @linkColor;
+	}
+}
+
+.main-header {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin: 50px auto;
+	
+	div {
+		width: 45%;
+
+		img {
+			width: 100%;
+			height: auto;
+		}
+	}
+
+	.name-title {
+		padding: 150px 0;
+		text-align: center;
+
+		p {
+			font-size: 3rem;
+		}
+	}
+}
+
+.section-one {
+	width: 100%;
+	margin: 20px auto;
+	div {
+		border: 1px solid @containerColor;
+		background: #f4f4f4;
+		border-radius: 10% 0%;
+		width: 100%;
+		height: 100px;
+		padding: 25px 10%;
+	}
+}
+
+.section-two {
+	display: flex;
+	margin: 20px auto;
+	justify-content: space-around;
+
+	div {
+		width: 45%;
+		border: 1px solid black;
+	}
+}
+
+.section-three {
+	display: flex;
+	margin: 20px auto;
+	justify-content: space-around;
+
+	div {
+		width: 45%;
+		border: 1px solid black;
+	}
+}

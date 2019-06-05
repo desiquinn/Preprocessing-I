@@ -135,3 +135,98 @@ body {
   height: 100%;
 }
 /* Colors to Use */
+/* Global Features */
+html {
+  font-size: 62.5%;
+}
+body {
+  background-color: #ffffff;
+  background-image: linear-gradient(to bottom, #753a88, #7aa7d2);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  font-size: 1.4rem;
+}
+h1 {
+  font-size: 6rem;
+}
+h2 {
+  font-size: 2.5rem;
+}
+h3 {
+  font-size: 2rem;
+}
+h4 {
+  font-size: 1rem;
+}
+.page-wrapper {
+  width: 880px;
+  margin: 0 auto;
+}
+.nav-bar {
+  background: #ffffff;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  padding: 40px 25%;
+}
+.nav-bar a {
+  text-decoration: none;
+  font-size: 1.8rem;
+  color: #753a88;
+}
+.nav-bar a:hover {
+  color: #35b88f;
+}
+.main-header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 50px auto;
+}
+.main-header div {
+  width: 45%;
+}
+.main-header div img {
+  width: 100%;
+  height: auto;
+}
+.main-header .name-title {
+  padding: 150px 0;
+  text-align: center;
+}
+.main-header .name-title p {
+  font-size: 3rem;
+}
+.section-one {
+  width: 100%;
+  margin: 20px auto;
+}
+.section-one div {
+  border: 1px solid #c0c0c0;
+  background: #f4f4f4;
+  border-radius: 10% 0%;
+  width: 100%;
+  height: 100px;
+  padding: 25px 10%;
+}
+.section-two {
+  display: flex;
+  margin: 20px auto;
+  justify-content: space-around;
+}
+.section-two div {
+  width: 45%;
+  border: 1px solid black;
+}
+.section-three {
+  display: flex;
+  margin: 20px auto;
+  justify-content: space-around;
+}
+.section-three div {
+  width: 45%;
+  border: 1px solid black;
+}

@@ -4,6 +4,7 @@
 <head>
   <meta charset="utf-8">
   <!--Insert Responsive Meta Tage Here-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Desiree Morris Resume</title>
 
   <link rel="stylesheet" href="css/index.css">
@@ -14,32 +15,36 @@
 </head>
 
 <body>
-  <main><!--Page Wrapper-->
-    <nav> <!--Navigation-->
-      <a href="#">Resume toPrint</a>
-      <a href="#">Portfolio</a>
-      <a href="#">My Story</a>
-      <a href="#">Work History</a>
-    </nav>
+  
+  <nav class="nav-bar"> <!--Navigation-->
+    <a href="#">Resume toPrint</a>
+    <a href="#">Portfolio</a>
+    <a href="#">My Story</a>
+    <a href="#">Work History</a>
+  </nav>
 
-    <header> <!--Header-->
+  <main class="page-wrapper"><!--Page Wrapper-->
+    <header class="main-header"> <!--Header-->
       <div>
         <!-- Add Photo of Me Here-->
         <img src="img/circle-face.png" alt="Circular picture of Desiree Morris">
       </div>
-      <div>
+      <div class="name-title">
         <h1>Desiree Morris</h1>
         <p>Full Stack Web Developer</p>
 
         <p>Charlotte NC</p>
       </div>
+    </header>
+
+    <section class="section-one"> <!--Section 1-->
       <div>
         <p>I love to work on new projects and collaborations. If you want to work with me let me know.</p>
         <button>Send Me A Message</button>
       </div>
-    </header>
+    </section>
 
-    <section> <!--Section 1-->
+    <section class="section-two"> <!--Section 2-->
       <div>
         <h2>My Story</h2>
         <p>In the early 90s my grandmother introduced me to coding.  I was just 12 years old when I taught myself the basics of HTML and CSS. When I went to college I landed my first Jr. Web Designer job at Western Carolina University.  Later I was recruited to design and manage the website for WCU's Women's Center.  Eventually I earned my Bachelor's Degree in Biology and began working in medicine, research, and sales.  Still something was missing in my life.  After some thought I realized that Web Development had been my true passion all along. I am now a Lambda School student modernizing my exsisting skills and learning new ones to become a full stack web developer.</p>
@@ -51,7 +56,7 @@
       </div>
     </section>
 
-    <section> <!--Section 2-->
+    <section class="section-three"> <!--Section 3-->
       <div>
         <h2>What I Know</h2>
         <!--add images instead of text?-->
@@ -81,7 +86,7 @@
       </div>
     </section>
 
-    <section> <!--Section 3-->
+    <section> <!--Section 4-->
       <h2>Work History</h2>
       <table><!--Make a Table-->
         <tr>
